@@ -37,7 +37,8 @@ If Bob wants to send a message to Alice:
 2) Bob encrypts this symmetric key with Alice's public key.
 3) Bob sends it to Alice.
 4) Alice decrypts it using her private key.
-5) Popular asymmetric encryption algorithms include RSA, DSA, ECDSA, ElGamal, DH/DHKE, and ECDH.
+
+Popular asymmetric encryption algorithms: RSA, DSA, ECDSA, ElGamal, DH/DHKE, and ECDH.
 
 The common way to measure encryption strength is via key length; the assumption is that keys are essentially random, which means that the keyspace is defined by the number of bits in a key.
 
